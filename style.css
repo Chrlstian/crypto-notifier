@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 1rem;
+}
+h1{
+    margin-bottom: 1rem;
+}
+h2{
+    margin-top: 1rem;
+}
+.coin-name, .date{
+    /* border: 1px solid #000; */
+    padding: 5px;
+}
+.coin-name input, .date input{
+    height: 25px;
+    padding-left: 5px;
+}
+.date{
+    margin-bottom: .5rem;
+}
+#setNotification{
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
+#setNotification:hover{
+    background-color: #cfcfcf;
+    
+}
+#notificationList{
+    padding-left: 1rem;
+}

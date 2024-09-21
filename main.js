@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, ipcMain, Menu } = require('electron');
 const path = require('path');
 const notifier = require('node-notifier');
 
@@ -19,6 +19,9 @@ const createWindow = () => {
   });
 
   mainWindow.loadFile('index.html');
+
+  // Remove the default menu
+  Menu.setApplicationMenu(null);
 };
 
 app.whenReady().then(createWindow);
