@@ -1,0 +1,14 @@
+{
+  "name": "crypto-notifier",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^25.9.8"
+  },
+  "dependencies": {
+    "node-notifier": "^10.0.1"
+  }
+}
